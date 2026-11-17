@@ -1,0 +1,30 @@
+// 1. Eigene Variablen
+$primary: #ff9b51;
+
+// 2. Bootstrap-Grundlagen
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+// Globale Styles
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+
+// Nur die gewünschten Komponenten
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/utilities/api"; // erzeugt Klassen wie mt-3
+
+// 3. Bootstrap Icons (sonst zeigen die Icons nur leere Kästchen)
+$bootstrap-icons-font-dir: "../../node_modules/bootstrap-icons/font/fonts";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+
+// Eigene Stile
+body {
+  background-color: #f8f9fa;
+}

@@ -1,0 +1,5 @@
+Erkläre warum nur die gewünschten Teile importiert werden und wie sich das auf die CSS-Dateigrößeauswirkt?
+
+Es werden nur die benötigten Bootstrap-Komponenten importiert. Bei dem Beispiel ist das das Grid-System und die Buttons. Dadurch werden nicht benötigte CSS-Regeln wie welche für Modals oder Navigation nicht mitkompiliert.
+
+Der Vorteil davon ist, dass die Dateigröße kleiner ist. Der Browser muss weniger Daten laden was bedeutet dass die Website schneller geladen ist. 
